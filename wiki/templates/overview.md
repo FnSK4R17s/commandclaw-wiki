@@ -1,8 +1,8 @@
 ---
 title: "Overview"
 type: overview
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
 tags: []
 ---
 

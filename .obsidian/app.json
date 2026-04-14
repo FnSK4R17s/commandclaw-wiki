@@ -1,0 +1,8 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "raw/assets",
+  "defaultViewMode": "source",
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true
+}

@@ -58,6 +58,18 @@ When creating a new page, copy the matching template file, then fill it in:
 - `wiki/templates/overview.md` -> `wiki/overview.md` (keep updated)
 - `wiki/templates/log-entry.md` -> append to `wiki/log.md`
 
+## Templater Syntax Reference
+
+Templates use Obsidian Templater (`<% tp.* %>`) syntax. When creating pages,
+substitute these as follows:
+
+| Templater expression | Substitute with |
+|---|---|
+| `<% tp.file.title %>` | The page title (derived from filename in kebab-case → Title Case) |
+| `<% tp.date.now("YYYY-MM-DD") %>` | Today's date in `YYYY-MM-DD` format |
+
+Do not leave `<% ... %>` markers in generated pages — always resolve them.
+
 ## Operations
 
 ### Ingest

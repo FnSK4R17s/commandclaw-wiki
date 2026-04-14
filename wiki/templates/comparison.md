@@ -1,8 +1,8 @@
 ---
-title: "{{title}}"
+title: "<% tp.file.title %>"
 type: comparison
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
 sources: [source-slug-1]
 tags: []
 ---

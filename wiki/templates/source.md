@@ -1,8 +1,8 @@
 ---
-title: "{{title}}"
+title: "<% tp.file.title %>"
 type: source
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+created: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.date.now("YYYY-MM-DD") %>
 source_file: "raw/<path>"
 tags: []
 ---
