@@ -51,7 +51,11 @@ Click **"Use this template"** on GitHub to create a private repo for your wiki.
 
 ### 2. Open in Obsidian
 
-Open the cloned repo as an Obsidian vault. On first launch, enable the community plugins when prompted:
+Open the cloned repo as an Obsidian vault. The config files are included, but you need to install the community plugins on first launch:
+
+1. Go to **Settings → Community plugins → Turn on community plugins**
+2. Click **Browse** and install each plugin below
+3. Enable all of them
 
 | Plugin | Purpose |
 |--------|---------|
@@ -60,6 +64,8 @@ Open the cloned repo as an Obsidian vault. On first launch, enable the community
 | metadata-menu | YAML frontmatter management |
 | obsidian-linter | Markdown formatting |
 | obsidian-web-clipper | Clip web articles as markdown sources |
+
+> **Note:** Plugin config is tracked in git but plugin binaries are not. This is a one-time setup per clone.
 
 ### 3. Add a source
 
