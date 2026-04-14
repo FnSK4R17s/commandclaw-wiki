@@ -59,10 +59,10 @@ Open the cloned repo as an Obsidian vault. The config files are included, but yo
 
 | Plugin | Purpose |
 |--------|---------|
-| obsidian-git | Auto git sync |
-| templater-obsidian | Auto-fill frontmatter on new pages |
-| metadata-menu | YAML frontmatter management |
-| obsidian-linter | Markdown formatting |
+| [obsidian-git](https://github.com/Vinzent03/obsidian-git) | Auto git sync |
+| [templater-obsidian](https://github.com/SilentVoid13/Templater) | Auto-fill frontmatter on new pages |
+| [metadata-menu](https://github.com/mdelobelle/metadatamenu) | YAML frontmatter management |
+| [obsidian-linter](https://github.com/platers/obsidian-linter) | Markdown formatting |
 | obsidian-web-clipper | Clip web articles as markdown sources |
 
 > **Note:** Plugin config is tracked in git but plugin binaries are not. This is a one-time setup per clone.
