@@ -5,6 +5,8 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+__pycache__/
+*.pyc
 *.swp
 *.swo
 *~
@@ -13,6 +15,7 @@ Thumbs.db
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
+.claude/state.json
 
 # Quartz build output (built by GitHub Action, not committed)
 public/
